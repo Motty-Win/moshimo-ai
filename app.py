@@ -66,7 +66,7 @@ with st.sidebar:
     st.divider()
     if st.button("会話リセット", type="primary"):
         st.session_state.messages = []
-        st.experimental_rerun()
+        st.rerun()
 
 # --------------------
 # セッション初期化
