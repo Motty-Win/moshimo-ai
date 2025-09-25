@@ -39,14 +39,15 @@ client = (
 st.markdown(
     """
     <div style="text-align:center; padding: 24px; border-radius: 20px; 
-                background: linear-gradient(135deg, #FFE4E1, #F0E68C, #E0FFFF, #F0FFF0);
-                box-shadow: 0 8px 25px rgba(255, 182, 193, 0.3);
+                background: #F5F5F5;  /* 単色の淡いグレー */
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
                 margin-bottom: 20px;
-                border: 3px solid #FFB6C1;">
-      <h1 style="margin:0; color: #FF1493; text-shadow: 2px 2px 4px rgba(255, 20, 147, 0.3); 
-                 font-size: 2.5em;">もしもAI 🎭✨</h1>
-      <p style="margin: 12px 0 0; color: #FF6347; font-size: 1.2em; font-weight: 500;">
-        もしも◯◯が話せたら？を、LLMでカタチに。🌈
+                border: 1px solid #D3D3D3;">
+      <h1 style="margin:0; color: #333333; text-shadow: none; font-size: 2em;">
+        もしもAI 🎭✨
+      </h1>
+      <p style="margin: 12px 0 0; color: #666666; font-size: 1em; font-weight: 500;">
+        もしも◯◯が話せたら？を、LLMでカタチに。
       </p>
     </div>
     """,
@@ -68,10 +69,10 @@ with st.sidebar:
     # キャラクター選択セクション
     st.markdown(
         """
-        <div style="background: linear-gradient(135deg, #FFE4E6, #FFF0F5); 
+        <div style="background: #F8F8F8;  /* 単色の淡いグレー */
                     padding: 15px; border-radius: 15px; margin-bottom: 20px;
-                    border: 2px solid #FFB6C1;">
-            <h2 style="color: #FF1493; text-align: center; margin: 0;">
+                    border: 1px solid #D3D3D3;">
+            <h2 style="color: #333333; text-align: center; margin: 0; font-size: 1.5em;">
                 🎭 キャラクター選択 ✨
             </h2>
         </div>
@@ -86,10 +87,10 @@ with st.sidebar:
     st.markdown("---")
     st.markdown(
         """
-        <div style="background: linear-gradient(135deg, #E0FFFF, #F0FFFF); 
+        <div style="background: #F8F8F8;  /* 単色の淡いグレー */
                     padding: 15px; border-radius: 15px; margin: 15px 0;
-                    border: 2px solid #87CEEB;">
-            <h3 style="color: #4682B4; text-align: center; margin: 0;">
+                    border: 1px solid #D3D3D3;">
+            <h3 style="color: #333333; text-align: center; margin: 0; font-size: 1.2em;">
                 ⚙️ 出力スタイル設定 🎨
             </h3>
         </div>
