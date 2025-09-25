@@ -27,12 +27,14 @@
 ---
 
 ## 🗂️ プロジェクト構成
+```
 moshimo-ai/
 ├─ app.py                # メインアプリ本体
 ├─ characters.yaml      # キャラクター設定（人格プロンプト）
 ├─ requirements.txt     # 依存パッケージ
 ├─ .env.example         # 環境変数テンプレート
 └─ assets/              # 各キャラクターのアイコン画像
-├─ cat.png
-├─ oda.png
-└─ spaceship.png
+   ├─ cat.png
+   ├─ oda.png
+   └─ spaceship.png
+```
